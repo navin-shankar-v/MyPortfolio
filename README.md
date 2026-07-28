@@ -2,7 +2,7 @@
 
 A single page personal portfolio built as one self contained `index.html` file. No build step, no frameworks, no npm. All CSS and JavaScript are inline, so GitHub Pages serves it exactly as is.
 
-**Live site:** https://navin-shankar-v.github.io/portfolio/
+**Live site:** [https://navin-shankar-v.github.io/MyPortfolio/](https://navin-shankar-v.github.io/MyPortfolio/)
 
 ## Highlights
 
