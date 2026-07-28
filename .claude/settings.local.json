@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/NavinShankar/Downloads/**)",
+      "Bash(python -c \"import pypdf; r=pypdf.PdfReader\\('Navinshankar_Resume.pdf'\\); print\\('\\\\n'.join\\(p.extract_text\\(\\) for p in r.pages\\)\\)\")",
+      "Bash(python -c \"import PyPDF2; r=PyPDF2.PdfReader\\('Navinshankar_Resume.pdf'\\); print\\('\\\\n'.join\\(p.extract_text\\(\\) for p in r.pages\\)\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c \"import pypdf; r=pypdf.PdfReader\\(r'C:\\\\Users\\\\NavinShankar\\\\Downloads\\\\Navinshankar_Resume.pdf'\\); print\\('\\\\n'.join\\(p.extract_text\\(\\) for p in r.pages\\)\\)\")",
+      "Bash(cp \"C:/Users/NavinShankar/Downloads/Navinshankar_Resume.pdf\" \"C:/Users/NavinShankar/Documents/Portfolio/Navinshankar_Resume.pdf\" && ls -la \"C:/Users/NavinShankar/Documents/Portfolio\")",
+      "Bash(command -v python)",
+      "Bash(command -v py)",
+      "Bash(command -v npx)"
+    ]
+  }
+}
