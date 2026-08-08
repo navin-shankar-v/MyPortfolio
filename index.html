@@ -1701,20 +1701,29 @@
             </div>
 
             <div class="tl-item reveal d2">
-              <div class="tl-head"><span class="tl-role">Software Developer</span><span class="tl-date">February 2022 to
+              <div class="tl-head"><span class="tl-role">Software Developer</span><span class="tl-date">January 2022 to
                   July 2023</span></div>
               <div class="tl-company">Viatore Solutions <span class="loc">· Coimbatore, India</span></div>
               <ul class="tl-bullets">
                 <li>Decomposed the monolith into Java and Spring Boot microservices deployed independently on
                   Kubernetes, isolating orders,inventory, and billing and cutting deployment lead time 75%.</li>
+
                 <li>Optimized order-detail data access with Hibernate batch fetching & JPA projections cutting
                   per-request database calls by 87%</li>
+
                 <li>Engineered CI/CD pipelines using GitHub Actions to automate testing and deployment workflows,
                   cutting release time by 75% and raising pre-production quality.</li>
-                <li>Replaced polling-based dashboard refresh with Redis Pub/Sub over WebSockets, delivering live stock
-                  updates in 12ms versus an 8s cycle and cutting recurring database query load.</li>
-                <li>Built the order-management merchant dashboard with React and JavaScript, surfacing live order,
-                  stock, and shipment data for daily merchant operations.</li>
+
+                <li>Built order-management merchant dashboard with React and JavaScript, surfacing live order,
+                  stock, and shipment data for daily merchant operations into one view and replacing a manual,
+                  spreadsheet-based tracking process.</li>
+
+                <li>Replaced polling-based dashboard refresh with Redis Pub/Sub over WebSockets, reducing update
+                  latency by over 99\% and cutting server CPU utilization by 40\% by eliminating database bottlenecks
+                </li>
+
+                <li>Reduced initial dashboard bundle size by 45\% and cut Time-to-Interactive by over 56\% by
+                  implementing code-splitting and lazy-loading for heavy views.</li>
               </ul>
             </div>
           </div>
